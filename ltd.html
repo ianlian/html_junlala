@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUNLALA LTD. | Elevate Your Online Presence</title>
+    <style>
+        /* Basic Reset */
+        body, h1, h2, h3, p, ul, li { margin: 0; padding: 0; }
+        body { font-family: sans-serif; color: #333; line-height: 1.6; }
+        ul { list-style: none; }
+        a { text-decoration: none; color: #007bff; }
+
+        /* Header */
+        header { background: #f8f9fa; padding: 20px; text-align: center;}
+        header h1 { font-size: 2em; }
+        nav ul { display: flex; justify-content: center; margin-top: 10px;}
+        nav ul li { margin: 0 15px;}
+
+        /* Hero Section */
+        .hero { background-image: url('your-hero-image.jpg'); /* Replace */ background-size: cover; background-position: center; padding: 100px 0; text-align: center; color: white; position: relative; }
+         .hero::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); /* Overlay */ }
+        .hero-content { position: relative; z-index: 1;}
+        .hero h2 { font-size: 2.5em; margin-bottom: 20px;}
+        .hero p { font-size: 1.2em; margin-bottom: 30px;}
+        .cta-button { background-color: #007bff; color: white; padding: 12px 24px; border: none; border-radius: 5px; cursor: pointer; font-size: 1em; display: inline-block;}
+
+        /* Sections */
+        section { padding: 60px 20px; text-align: center; }
+        section h2 { font-size: 2em; margin-bottom: 30px; }
+        .container { max-width: 1200px; margin: 0 auto;}
+
+
+        /* About Us */
+        .about-us { background: #f8f9fa; }
+        .about-us .container p { max-width: 800px; margin: 0 auto; }
+
+        /* Services */
+        .services ul { display: flex; flex-wrap: wrap; justify-content: center; }
+         .services ul li { width: 300px; padding: 20px; margin: 10px; background: #fff; border: 1px solid #ddd; border-radius: 5px; text-align: left;}
+         .services ul li h3 { margin-bottom: 10px; }
+        .services ul li p { font-size: 0.9em; }
+        .services ul li i { font-size: 2em; margin-bottom: 10px; display: block; color: #007bff;}
+
+        /* Case Studies */
+        .case-studies { background: #e9ecef; }
+        .case-studies .case-study { max-width: 700px; margin: 30px auto; background: white; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);}
+
+        /* Why Choose Us */
+        .why-choose-us ul {display: flex; flex-wrap: wrap; justify-content: center; }
+        .why-choose-us ul li { width: 300px; padding: 20px; margin: 10px; background: #fff; border: 1px solid #ddd; border-radius: 5px; text-align: left;}
+        .why-choose-us ul li i{ font-size: 2em; margin-bottom: 10px; display: block; color: #007bff;}
+
+        /* CTA Section */
+        .cta-section { background: #007bff; color: white; padding: 80px 0; }
+         .cta-section h2 { color: white; }
+
+        /* Footer */
+        footer { background: #343a40; color: #fff; text-align: center; padding: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>
+      <div class="container">
+        <h1>JUNLALA LTD.</h1>
+      </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content container">
+            <h2>Fuel Your Growth with Data-Driven Marketing</h2>
+            <p>We provide tailored internet marketing solutions to help businesses achieve sustainable growth and success.</p>
+            <a href="mailto:contact@junlala.us" class="cta-button">Get a Free Consultation</a>
+        </div>
+    </section>
+
+    <section class="about-us">
+      <div class="container">
+        <h2>About JUNLALA LTD.</h2>
+        <p>JUNLALA LTD. is a passionate team of digital marketing experts dedicated to helping businesses of all sizes succeed in the online world. We believe in data-driven strategies, creative thinking, and a commitment to delivering tangible results.</p>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <ul>
+          <li>
+            <i class="fas fa-search"></i>
+              <h3>Search Engine Optimization (SEO)</h3>
+              <p>Improve your website's visibility and organic traffic with our expert SEO strategies.</p>
+          </li>
+          <li>
+            <i class="fas fa-bullhorn"></i>
+              <h3>Pay-Per-Click (PPC) Advertising</h3>
+              <p>Reach the right audience with targeted ads that deliver measurable results.</p>
+          </li>
+          <li>
+            <i class="fas fa-share-alt"></i>
+             <h3>Social Media Marketing</h3>
+             <p>Engage with your audience and enhance your brand's presence on social media.</p>
+          </li>
+          <li>
+            <i class="fas fa-file-alt"></i>
+             <h3>Content Marketing</h3>
+             <p>Attract and engage your audience with high-quality content that drives results.</p>
+          </li>
+          <li>
+              <i class="fas fa-envelope"></i>
+              <h3>Email Marketing</h3>
+              <p>Connect with your audience through targeted and effective email campaigns.</p>
+            </li>
+            <li>
+              <i class="fas fa-desktop"></i>
+                <h3>Website Design & Development</h3>
+                <p>Create user-friendly and high-converting websites.</p>
+              </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="case-studies">
+      <div class="container">
+        <h2>Our Success Stories</h2>
+        <div class="case-study">
+          <h3>Case Study 1: Increased Organic Traffic</h3>
+          <p>Client A saw a 150% increase in organic traffic after implementing our SEO strategy.</p>
+        </div>
+        <div class="case-study">
+            <h3>Case Study 2: Improved Conversion Rates</h3>
+            <p>Client B's conversion rates jumped by 40% with our targeted PPC campaigns.</p>
+          </div>
+      </div>
+    </section>
+
+    <section class="why-choose-us">
+      <div class="container">
+        <h2>Why Partner with JUNLALA LTD.?</h2>
+        <ul>
+            <li>
+                <i class="fas fa-chart-line"></i>
+                <h3>Data-Driven Approach</h3>
+                <p>We leverage data analytics to create targeted and effective strategies.</p>
+            </li>
+            <li>
+                <i class="fas fa-users"></i>
+                <h3>Experienced Team</h3>
+                <p>Our team consists of seasoned digital marketing experts.</p>
+            </li>
+            <li>
+                <i class="fas fa-cogs"></i>
+                <h3>Customized Solutions</h3>
+                <p>We tailor our approach to meet your specific business goals.</p>
+            </li>
+            <li>
+                <i class="fas fa-file-contract"></i>
+                 <h3>Transparent Reporting</h3>
+                 <p>We provide clear and concise reports on your marketing performance.</p>
+            </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to take your business to the next level?</h2>
+        <a href="mailto:contact@junlala.us" class="cta-button">Get a Free Consultation</a>
+      </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 JUNLALA LTD. All rights reserved.</p>
+    </footer>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+</html>
